@@ -1,0 +1,119 @@
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Irish Grover';
+    src: url('../fonts/IrishGrover-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans';
+        transition: all 0.3s ease-in-out;
+
+}
+
+.bg-image{
+    background-image: url(../images/bg-main.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* z-index: -1; */
+    
+
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    padding-top: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: #262626;
+    padding-top: 20px;
+
+}
+.logo{
+    color:white;
+    font-family: 'Irish Grover';
+    font-size: 2rem;
+    text-decoration: none;
+
+}
+
+.nav_items{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+
+}
+.nav_items li{
+    list-style: none;
+    margin-left: 20px;
+}
+.nav_items a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    
+
+}
+.nav_items a:hover{
+    color: #ffcc00;
+}
+
+.nav_items .logo-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.banner-content{
+    padding: 10px;
+}
+.image-stack{
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+.image-stack img{
+    position: absolute;
+  
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+}
+.image-stack .img-1{
+    top: 0;
+    left: 0;
+}
+.image-stack .img-2{
+    top: 0;
+    right: 0;
+}.image-stack .img-3{
+    bottom: 0;
+    right: 0;
+}
+.image-stack .img-4{
+    bottom: 25%;
+    right: 25%;
+    top:25%;
+    left: 25%;
+}
+.image-stack .img-5{
+    bottom: 0;
+    left: 0;
+}
