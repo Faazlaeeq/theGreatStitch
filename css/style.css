@@ -30,8 +30,8 @@
 
 }
 .overlay{
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
     padding-top: 20px;
 }
 .header{
@@ -82,6 +82,7 @@
     object-fit: cover;
 }
 .banner-content{
+    height: 500px;
     padding: 10px;
 }
 .image-stack{
@@ -95,6 +96,8 @@
     width: 40%;
     height: 40%;
     object-fit: cover;
+    filter: brightness(50%);
+    
 }
 .image-stack .img-1{
     top: 0;
@@ -116,4 +119,198 @@
 .image-stack .img-5{
     bottom: 0;
     left: 0;
+}
+
+.banner-heading{
+    font-size: 4.5rem;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+.banner-sub{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.btn-success{
+    background-color: #228200 !important;
+    border-color: #228200 !important;
+    width: fit-content;
+}
+.sub-head{
+    color:#00000066
+
+}
+.heading{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+}
+#services{
+    padding-top: 50px;
+}
+.circle{
+    background-color: #228200;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -40px;
+    padding: 20px;
+}
+.circle img{
+
+    object-fit: scale-down;
+  
+}
+.circle-card{
+    border-radius: 10px !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 60%;
+    min-width: 250px !important;
+    margin-top:70px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px !important;
+    text-transform: capitalize !important;
+}
+.card-text{
+    font-size:13px;
+}
+.wu-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.wu-sub-head{
+    font-size: 18px;
+    color: #00000088;
+    width: 80%;
+}
+.whyus img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.whyus{
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.whyus>.row>.col-md-4{
+    padding: 10px;
+}
+.design-row{
+    background-color: #228200;
+    padding: 10px;
+}
+.dflex-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+.design-card{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    color: white;
+    width:150px;
+    height: 250px;
+}
+.design-card img{
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+.design-button{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.design-sub span{
+    color: #228200;
+}
+.design-button:hover{
+    background-color: #228200;
+    color: white;
+}
+
+#file{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/bg-filesupport.jpg);
+    background-size: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    
+
+}
+#file .overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white ;
+    flex-direction: column;
+}
+#file .heading{
+    color: white;
+}
+#file h3{
+    width: 70%;
+}
+
+footer{
+    background-color: #262626;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: #ffcc00;
+}
+footer .col-md-4{
+   padding: 10px 10%;
 }
